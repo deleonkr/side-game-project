@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>I want you to love me.</title>
+
+
+    
+	<!-- your CSS stylesheet -->	
+	<link href="css/normalize.css" rel="stylesheet" type="text/css">
+	<link href="css/jqueryui.css" rel="stylesheet" type="text/css">
+	<link href="css/styles.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway|Rubik:400,900" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Passion+One|Poppins|Oswald" rel="stylesheet">
+  	<link rel="shortcut icon" href="./img/bobdy-head.png">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	
+  </head>
+  <body>
+
+	<div id="wrapperall">
+	  
+		<div id="homepage">
+
+			<div id="wrapper">
+
+		  		<div id="startchar"></div>
+		  		<div id="textwrapper">
+		    
+			    	<!-- TITLE OF PROJECT -->
+			    	<h1 id="gametitle">I want you to love me.</h1>
+			    
+			    	<div id="inswrapper">
+			      		<!-- INSERT INSTRUCTIONS HERE -->
+			      		<h3 id="institle">Instructions</h3>
+			      		<div id="instructions">
+			      			<p>You are on a date. Click on the right answers to fill the love meter and take your new friend home.</p> 
+			      			<p>But first, why don't you introduce yourself to your date?</p>
+			      		</div>
+
+			      		<!-- ENTER NAME HERE -->
+			      		<form id="submit">
+			      			<input id="input" type="text" name="name" placeholder="Tell Me Your Name"><br>
+			      			<button class="button" id="play">PLAY</button>
+			      		</form>
+			    	</div>
+
+		  		</div>
+			</div>
+		</div>
+	  
+	  	<div id="gamepage">
+
+	    	<div id="gamewrapper">
+	      
+				<div id="gamechar">
+
+					<div id="lovemeter">LOVE METER
+						<p id="hearts"><!-- &hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts;&hearts; --></p>
+					</div>
+
+					<audio id="cat-noise" src="media/cat2.wav"></audio>
+					<div id="gamecharbody"></div>
+					<div id="gamecharhead" class="jiggle"></div>
+
+					<div id="note">Click on Bob Dylan's head to hear some noise.</div>
+
+				</div>
+
+	      		<div id="queswrapper">
+	        		<div class="convo" id="questionbox">
+	          			<div id="question"></div>
+	          			<div class="answer" id="choiceA"></div>
+			          	<div class="answer" id="choiceB"></div>
+			          	<div class="answer" id="choiceC"></div>
+			          	<div class="answer" id="choiceD"></div>
+	        		</div>
+
+		        	<div class="convo" id="responsebox">
+		          		<div id="response"></div>
+		          		<button class="button" id="next">NEXT</button>
+		        	</div>
+
+	        		<div id="picnic"></div>
+	      		</div>
+
+	    	</div>
+
+			<div id="resetwrapper">
+				<button class="button" id="reset">RESET</button>
+				<!-- <button class="button" id="next">NEXT</button> -->
+			</div>
+
+	  	</div>
+
+	  	<div id="winnerbox"></div>
+	</div>
+
+
+<!-- JAVASCRIPT -->
+	<script src="js/jquery.js"></script>
+	<script src="js/jqueryui.js"></script>
+	<script src="js/script.js"></script>
+
+  </body>
+</html>
+
+
