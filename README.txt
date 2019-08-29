@@ -19,17 +19,7 @@ You are on a date with a cat. The cat, named Bob Dylan, will ask you questions t
 Based on the questions and answers that the cat asks, hearts are rewarded and stored at the top of the screen. The goal of the game is to get the most number of hearts you can. When the date is over, and if you have achieved the requisite number of hearts, the date is either a success or not. 
 
 
-Technologies Used 
-
-
-* HTML
-* CSS
-* jQuery
-
-
-
-
-About the Build 
+###About the Build 
 
 
 **HTML5** - I stacked the home page and game page in separate divs and toggled their visibility based on click events. I then consolidated the end/win and game pages to prevent adding an extra page. :)
@@ -90,7 +80,7 @@ About the Build
 3) I was inspired by Keith’s James Brown head and used it for the bobbing Bengal cat head. Whenever you click on the bobbing head, you’ll hear a cat meow or hiss … or get cat called!
 
 
-Development
+###Development
 
 
 I knew I wanted to a do a cat-themed choose your own adventure game, but it ended up evolving into a cat lover's dating game. After I had a solid idea of what the cat's personality was going to be like, I sketched out some ideas and chose some pictures to work with. I made the art in Photoshop with photos of my dead cat, Bob Dylan, (R.I.P.) and started coding the game. 
@@ -98,14 +88,6 @@ I knew I wanted to a do a cat-themed choose your own adventure game, but it ende
 The royalty-free cat noises were downloaded from Audioblocks.org. 
 
 
-Future Improvements
-
+###Future Improvements
 
 Next time, I would like to add more cats with different personalities to my game. That way, the user will be able to choose which kitty they would want to go on a date with. :)
-
-
-
-
-Content Helpers:
-* The most talked about questions on OKCupid: https://theblog.okcupid.com/https-medium-com-okcupid-the-questions-you-should-ask-your-significant-other-f43419d660e7
-* 40 deep questions to ask if you really want to get to know someone: https://thoughtcatalog.com/rania-naim/2016/02/40-deep-questions-to-ask-if-you-really-want-to-get-to-know-someone/
