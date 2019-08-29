@@ -1,0 +1,402 @@
+/* styles.css 
+   Project: 
+   Author: 
+   Date: 
+	
+   Helpful links: 
+   	Web colors: 
+   		https://en.wikipedia.org/wiki/Web_colors#X11_color_names
+	Color picker tool:
+		https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colors/Color_picker_tool
+		http://colorpicker.com
+
+*/
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  color: #034f89 ;
+}
+
+#wrapperall {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+#homepage {
+  position: absolute;
+  z-index: 1;
+}
+
+#gamepage {
+  visibility: hidden;
+  position: absolute;
+  z-index: 2;
+}
+
+#gametitle {
+  font-family: 'Oswald', sans-serif;
+  font-size: 100px;
+  color: #9400d3;
+  animation-name: slideDown;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+}
+
+@keyframes  slideDown {
+    0%  {transform: translateY(-100%);}
+    100% {transform: translateY(0%);}
+}
+
+#institle {
+   font-size: 1.2em;
+   font-weight: bold;
+   color: #034f89;
+   margin-bottom: 1%;
+}
+
+#textwrapper {
+  width: 600px;
+  height: 600px;
+  text-align: center;
+  /*border: 1px solid black;*/
+}
+
+#instructions {
+  margin: 10px;
+  padding: 10px;
+  color: #034f89;
+  font-size: 1.1em;
+}
+
+.button {
+  height: 40px;
+  width: 150px;
+  margin: 50px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: #ff4fa7;
+  cursor: pointer;
+  border: 2px solid #2d8bbe;
+  color: #034f89;
+}
+
+#reset {
+   margin: 100px;
+}
+
+#next {
+   font-size: 1.1em;
+   width: 100px;
+}
+
+#input {
+  font-family: 'Poppins', sans-serif;
+  height: 24px;
+  width: 300px;
+}
+
+#wrapper {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#questionbox {
+  border: 2px solid #2d8bbe;
+  width: 100%;
+  height: auto;
+  padding: 13px;
+  background-color: #f4f4f4;
+/*  visibility: hidden;*/
+  z-index: 1;
+  animation-name: questionslide;
+  animation-duration: 3s;
+  border-radius: 10px;
+}
+
+@keyframes questionslide {
+    0% {right: 0%;}
+    100% {left: 100%;}
+}
+
+#question {
+/*  border: 3px solid black;*/
+  height: 100px;
+  font-size: 2.2em;
+  font-family: 'Oswald', sans-serif;
+  color: #9400d3;
+  padding: 3%;
+}
+
+.answer {
+/*  border: 3px solid black;*/
+  height: 60px;
+  font-size: 24px;
+  line-height: 20px;
+  padding-left: 5%;
+}
+
+.answer:hover {
+    color: #ff4fa7;
+    cursor: pointer;
+}
+
+#response {
+  position: relative;
+}
+
+#next {
+  position: relative;
+  display: inline;
+  z-index: 2;
+  visbility: visible;
+  cursor: pointer;
+
+}
+
+#reset {
+  display: inline;
+  cursor: pointer;
+}
+
+
+#responsebox {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border: 2px solid #2d8bbe;
+  height: 200px;
+  width: 474px;
+  vertical-align: middle;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  z-index: 1;
+  margin: -300px 0 0 0;
+  background-color: #f6f6f6;
+  z-index: 2;
+  font-size: 24px;
+  border-radius: 10px;
+/*  animation-name: slideright 2s forwards;*/
+  visibility: hidden;
+
+}
+
+/*@keyframes slideright {
+  0% {transform: translateX(-900px);}
+  100% {transform: translateX(0);}
+}*/
+
+#winnerbox {
+  border: 2px solid #2d8bbe;
+  height: 200px;
+  width: 600px;
+  font-size: 48px;
+  color: #9400d3;
+  padding: 10px;
+  background-color: #f4f4f4;
+  text-transform: uppercase;
+  margin: 50px;
+  visibility: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  border-radius: 10px;
+}
+
+#lovemeter {
+  font-family: 'Oswald', sans-serif;
+  border: 2px solid #2d8bbe;
+  height: 100px;
+  font-size: 2.1em;
+  color: #9400d3;
+  padding: 10px;
+  text-align: center;
+  background-color: #f4f4f4;
+  text-transform: uppercase;
+  border-radius: 10px;
+}
+
+#hearts {
+  color: #ff4fa7;
+  margin: -2px;
+  font-size: 24px;
+  word-wrap: break-word;
+  line-height: 22px;
+}
+
+#gamewrapper {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: center;
+  margin: 50px;
+/*  border: 1px solid black;*/
+}
+
+#queswrapper {
+/*  display: flex;*/
+  position: relative;
+/*  border: 1px solid black;*/
+  width: 500px;
+  height: auto;
+}
+
+#resetwrapper {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  margin-top: 300px;
+}
+
+#gamechar {
+  position: absolute;
+  position: relative;
+/*  border: 1px solid black;*/
+  width: 500px;
+  height: auto;
+  margin: 0px 50px 0px 0px;
+}
+
+#startchar {
+  background-image: url("../img/bob.png");
+  /*border: 1px solid black;*/
+  position: relative;
+  height: auto;
+  width: 650px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 10%;
+  padding: 0;
+}
+
+#note {
+  padding: 10%;
+  font-size: 0.8em;
+}
+
+#gamecharbody {
+  background-image: url("../img/bobby-box.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+/*  border: 1px solid black;*/
+  position: absolute;
+  margin: -5px 0 0 -218px;
+  height: 800px;
+  width: 800px;
+}
+
+#gamecharhead {
+  background-image: url("../img/bobdy-head.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+/*  border: 1px solid black;*/
+  position: absolute;
+  margin: 118px 0 0 113px;
+  height: 200px;
+  width: 200px;
+  z-index: 2;
+  cursor: pointer;
+/*  animation: headbob 1.5s linear infinite; */
+}
+
+.jiggle {
+      -webkit-animation:jiggle 1.5s infinite;
+      -moz-animation:jiggle 1.5s infinite;
+      -o-animation:jiggle 1.5s infinite;
+      animation:jiggle 1.5s infinite;
+   }
+
+@-webkit-keyframes jiggle { 
+   0% {
+      transform:rotate(7deg);
+   }
+   50% {
+      transform:rotate(-7deg);
+   }
+   100% {
+      transform:rotate(7deg);}
+   }
+
+@-moz-keyframes jiggle { 
+   0% {
+      transform:rotate(7deg);
+   }
+   50% {
+      transform:rotate(-7deg);
+   }
+   100% {
+      transform:rotate(7deg);}
+   }  
+
+@-o-keyframes jiggle { 
+   0% {
+      transform:rotate(7deg);
+   }
+   50% {
+      transform:rotate(-7deg);
+   }
+   100% {
+      transform:rotate(7deg);}
+   }
+
+@keyframes jiggle { 
+   0% {
+      transform:rotate(7deg);
+   }
+   50% {
+      transform:rotate(-7deg);
+   }
+   100% {
+      transform:rotate(7deg);}
+   }
+
+
+#picnic {
+  background-image: url("../img/picnic.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  height: 300px;
+  width: 600px;
+  margin-top: 50px;
+/*  border: 1px solid black;*/
+}
+
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+#wrapperall {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#homepage {
+  position: absolute;
+  z-index: 1;
+  flex-direction: column;
+}
+
+#gamepage {
+  visibility: hidden;
+  position: absolute;
+  z-index: 2;
+  flex-direction: column;
+}
+
+.convo {
+   padding: 10px;
+}
+
