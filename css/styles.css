@@ -58,7 +58,8 @@ body {
 }
 
 #textwrapper {
-  width: 600px;
+  /* width: 600px; */
+  width:  100%;
   height: 600px;
   text-align: center;
   /*border: 1px solid black;*/
@@ -172,7 +173,8 @@ body {
   position: relative;
   border: 2px solid #2d8bbe;
   height: 200px;
-  width: 474px;
+  /* width: 474px; */
+  width: 30%;
   vertical-align: middle;
   align-items: center;
   justify-content: center;
@@ -196,7 +198,8 @@ body {
 #winnerbox {
   border: 2px solid #2d8bbe;
   height: 200px;
-  width: 600px;
+  /* width: 600px; */
+  width: 30%;
   font-size: 48px;
   color: #9400d3;
   padding: 10px;
@@ -246,7 +249,8 @@ body {
 /*  display: flex;*/
   position: relative;
 /*  border: 1px solid black;*/
-  width: 500px;
+/*  width: 500px; */
+  width: 50%;
   height: auto;
 }
 
@@ -261,7 +265,8 @@ body {
   position: absolute;
   position: relative;
 /*  border: 1px solid black;*/
-  width: 500px;
+ /* width: 500px; */
+  width: 50%;
   height: auto;
   margin: 0px 50px 0px 0px;
 }
@@ -271,7 +276,8 @@ body {
   /*border: 1px solid black;*/
   position: relative;
   height: auto;
-  width: 650px;
+  /* width: 650px; */
+  width: 100%;
   background-repeat: no-repeat;
   background-size: contain;
   margin-top: 10%;
@@ -291,7 +297,8 @@ body {
   position: absolute;
   margin: -5px 0 0 -218px;
   height: 800px;
-  width: 800px;
+  /* width: 800px;*/
+  width: 100%;
 }
 
 #gamecharhead {
@@ -302,7 +309,7 @@ body {
   position: absolute;
   margin: 118px 0 0 113px;
   height: 200px;
-  width: 200px;
+  /* width: 200px; */
   z-index: 2;
   cursor: pointer;
 /*  animation: headbob 1.5s linear infinite; */
@@ -366,7 +373,8 @@ body {
   background-size: cover;
   position: absolute;
   height: 300px;
-  width: 600px;
+  /* width: 600px; */
+  width: 40%;
   margin-top: 50px;
 /*  border: 1px solid black;*/
 }
